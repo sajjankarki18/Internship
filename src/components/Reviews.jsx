@@ -1,6 +1,7 @@
 import React from 'react'
 import rectImage from '../images/Rectangle 83.png'
 import quotes from '../images/quote.png'
+import page from '../images/Group 87.png'
 
 export default function Reviews() {
   return (
@@ -34,6 +35,9 @@ export default function Reviews() {
             <p className='quote-para'> I am very happy with the service, we <br /> were tired of this annoying bugs.</p>
             <p className='text-muted quote-para'>- Diana D.</p>
           </div>
+        </div>
+        <div className='text-center'>
+            <img src={page} alt={page} />
         </div>
       </div>
     </div>

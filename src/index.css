@@ -1,6 +1,6 @@
 body {
   background-color: #F9F9F9;
-  font-family: sans-serif;
+  font-family: outfit;
 }
 
 .logo {
@@ -112,3 +112,7 @@ body {
   width: 35px;
 }
 
+.faq-para, .service-para{
+  font-weight: bold;
+  font-size: 18px;
+}

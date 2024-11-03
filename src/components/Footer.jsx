@@ -1,7 +1,7 @@
 import React from 'react'
 import rectImage from '../images/Rectangle 80.png'
 import logo from '../images/Logo.png'
-import vector from '../images/Vector 1.png'
+import vector from '../images/footer-design.png'
 
 export default function Footer() {
     return (
@@ -13,7 +13,7 @@ export default function Footer() {
             backgroundRepeat: 'no-repeat',
             width: '100vw',
             padding: '50px 0',
-            paddingInline: '150px'
+            paddingInline: '150px',
         }}>
             {/* Vector image positioned on top left with increased size */}
             <img src={vector} alt="Vector" style={{

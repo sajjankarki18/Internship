@@ -12,14 +12,16 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Home />
-      <AboutUs />
-      <Services />
-      <Services2 />
-      <FAQ />
-      <Reviews />
-      <Footer />
+      <div style={{backgroundColor: 'white'}}>
+        <Navbar />
+        <Home />
+        <AboutUs />
+        <Services />
+        <Services2 />
+        <FAQ />
+        <Reviews />
+        <Footer />
+      </div>
     </>
   )
 }
