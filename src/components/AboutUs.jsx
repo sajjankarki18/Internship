@@ -4,16 +4,7 @@ import rectangleImage from '../images/Rectangle 71.png'
 export default function AboutUs() {
     return (
         <>
-            <div style={{
-                position: 'relative',
-                backgroundImage: `url(${rectangleImage})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                width: '100vw',
-                padding: '30px 0',
-                marginBottom: '100px'
-            }}>
+            <div className='aboutus-container'>
                 
                 <div className="container">
                     <div className="px-4 py-5 my-5 text-center">

@@ -5,15 +5,7 @@ import page from '../images/Group 87.png'
 
 export default function Reviews() {
   return (
-    <div style={{
-      backgroundImage: `url(${rectImage})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      width: '100vw',
-      padding: '50px 0',
-      paddingInline: '150px'
-    }}>
+    <div className='review-container'>
       <div className="container">
         <div style={{ marginTop: '100px', marginBottom: '100px' }}>
           <h1 style={{ fontSize: '35px', fontWeight: 'bold' }}>SEE WHAT OUT CLIENT HAVE <br /> TO SAY</h1>

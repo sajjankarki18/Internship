@@ -4,26 +4,13 @@ import pestImage from '../images/guarantee.png'
 import termitesImage from '../images/termites.png'
 import mosqImage from '../images/mosquito.png'
 import clockImage from '../images/clock.png'
-import rectangleImage from '../images/Rectangle 72.png'
 
 export default function Home() {
   return (
 
     <>
       {/* {home page section} */}
-      <div style={{
-        backgroundImage: `url(${rectangleImage})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        height: '800px',
-        top:'34px',
-        width: '1704px',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        padding: '20px',
-      }}>
+      <div className='home-container'>
         <div className='container d-flex justify-content-around align-items-center'>
           <div className="left">
             <h5 style={{ color: 'red', width: '668px' }}><b>Call For</b></h5>
